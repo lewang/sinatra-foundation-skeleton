@@ -1,11 +1,12 @@
 source :rubygems
 
-gem "sinatra", "~> 1.3"
+gem "sinatra"
 gem "zurb-foundation", "3.0.9"
 gem "thin"
 
 group :development do
+  gem "debugger"
   gem "shotgun"
-  gem "pry"
+  gem "debugger"
   gem "heroku"
 end
