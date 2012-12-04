@@ -2,6 +2,7 @@ source :rubygems
 
 gem "sinatra"
 gem "zurb-foundation", "3.0.9"
+gem "barista"                   # coffeescript
 gem "thin"
 
 group :development do
